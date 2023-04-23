@@ -7,9 +7,6 @@ import { AppFeatures } from '@models/AppFeatures'
 import MicIcon from './mic.svg'
 
 import style from './RecordingButton.module.scss'
-import { useSelector } from 'react-redux'
-import { selectSoundState } from '@store/soundControls/selectors'
-
 /**
  * A stateless button that records chat messages.
  */
